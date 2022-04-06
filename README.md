@@ -10,9 +10,7 @@ Using an Arduino NANO or just about any Arduino you can create a very accurate P
 5) Disconnect the USB cable from the Arduino and connect the PH, EC, Temperature sensors, and OLED to the following pins:
 
 PH probe connection (E201-BNC):
-5v
-GND
-Po to A0
+5v : GND : Po to A0
 
 OLED connection (128x64) I2C display:
 5v : GND : SDA to A4 : SCL to A5
