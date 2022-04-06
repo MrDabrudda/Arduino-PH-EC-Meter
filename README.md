@@ -4,7 +4,7 @@ Arduino PH &amp; EC Meter for hydroponics and gardening
 Using an Arduino NANO or just about any Arduino you can create a very accurate PH & EC/TDS meter for hydroponic and gardening.
 
 1) Connect your Arduino to your computer, start the Arduino IDE and flash the AREF_Calibrate.ino to the Arduino.
-2) Get an accurate Digital Multi-Meter and measure the voltage on pins AREF and GND
+2) Get an accurate Digital Multi-Meter and measure the voltage on pins AREF and GND (Should be somewhere in the range of ~1.1v)
 3) Edit the PHEC_Meter.ino and add the voltage from AREF/GND pin to the float iREF = variable.
 4) Save and flash PHEC_Meter.ino to your Arduino
 5) Disconnect the USB cable from the Arduino and connect the PH, EC, Temperature sensors, and OLED to the following pins:
